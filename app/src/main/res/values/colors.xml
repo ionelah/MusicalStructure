@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#607D8B</color>
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#CFD8DC</color>
+    <!-- Background color for app -->
+    <color name="tan_background">#FFFFFF</color>
+    <!-- Background color for playing now activity  -->
+    <color name="playing_now">#ECEFF1</color>
+    <!-- Background color for playlist activity  -->
+    <color name="playlist">#CFD8DC</color>
+    <!-- Background color for album_list activity  -->
+    <color name="album_list">#ECEFF1</color>
+    <!-- Background color for artist list activity  -->
+    <color name="artist_list">#CFD8DC</color>
+</resources>
+

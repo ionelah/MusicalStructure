@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="playing_now">Playing now</string>
+    <string name="album_list">Album List</string>
+    <string name="playlist">Playlist</string>
+    <string name="artist_list">Artist List</string>
+    <string name="first_name_text_view">Name1</string>
+    <string name="second_name_text_view">Name2</string>
+    <string name="artist_name1">Enigma</string>
+    <string name="artist_name2">Nightwish</string>
+    <string name="artist_name3">Mylene Farmer</string>
+    <string name="song_name1">Return to Innocence</string>
+    <string name="song_name2">Gravity of love</string>
+    <string name="song_name3">Wish I Had An Angel</string>
+    <string name="song_name4">Angels Fall First</string>
+    <string name="song_name5">Beyond My Control</string>
+    <string name="song_name6">Je t aime melancolie</string>
+    <string name="song_name7">XXL</string>
+    <string name="song_time1">4:03</string>
+    <string name="song_time2">3:58</string>
+    <string name="song_time3">4:06</string>
+    <string name="song_time4">5:34</string>
+    <string name="song_time5">5:24</string>
+    <string name="song_time6">5:29</string>
+    <string name="song_time7">4:25</string>
+    <string name="album_name1"> The Cross of Changes</string>
+    <string name="album_name2">The Screen Behind the Mirror</string>
+    <string name="album_name3">Once</string>
+    <string name="album_name4">Angels Fall First</string>
+    <string name="album_name5">L autre</string>
+    <string name="album_name6">Anamorphosee</string>
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+    <string name="stop">stop</string>
+</resources>

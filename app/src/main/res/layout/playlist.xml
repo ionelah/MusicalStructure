@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelLayoutStyle"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/artist_from_playlist_text_view"
+        style="@style/ArtistNameTextView"
+        android:text="@string/artist_name1"/>
+
+    <TextView
+        android:id="@+id/song_name_from_playlist"
+        style="@style/SongNameTextView"
+        android:text="@string/song_name1" />
+    <Button
+        android:id="@+id/button_play"
+        style="@style/ButtonStyle.Playlist"
+        android:text="@string/play"/>
+</RelativeLayout>

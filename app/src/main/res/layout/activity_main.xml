@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   style="@style/LinearLayoutStyle"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/play"
+        style="@style/ListStyle"
+        android:background="@color/playing_now"
+        android:text="@string/playing_now"/>
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/ListStyle"
+        android:background="@color/playlist"
+        android:text="@string/playlist" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/ListStyle"
+        android:background="@color/album_list"
+        android:text="@string/album_list" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/ListStyle"
+        android:background="@color/artist_list"
+        android:text="@string/artist_list" />
+
+</LinearLayout>
