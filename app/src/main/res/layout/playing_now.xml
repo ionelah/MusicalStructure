@@ -9,11 +9,11 @@
     <RelativeLayout
         style="@style/RelLayoutStyle">
         <TextView
-            style="@style/ArtistNameTextView"
+            style="@style/PaddDefault.ArtistNameTextView"
             android:id="@+id/artist_name_text_view"
             android:text="@string/artist_name1"/>
         <TextView
-            style="@style/SongNameTextView"
+            style="@style/PaddDefault.SongNameTextView"
             android:id="@+id/song_name_text_view"
             android:text="@string/song_name1"/>
        <TextView

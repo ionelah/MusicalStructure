@@ -39,36 +39,35 @@
         <item name="android:layout_height">50dp</item>
         <item name=" android:background">@color/tan_background</item>
     </style>
+   <!--Style for padding and textSize by default-->
+    <style name="PaddDefault">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
     <!-- Style for text view from playing now -->
-    <style name="ArtistNameTextView">
+    <style name="PaddDefault.ArtistNameTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentLeft">true</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:textSize">15sp</item>
     </style>
-    <style name="SongNameTextView">
+    <style name="PaddDefault.SongNameTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:textSize">15sp</item>
     </style>
     <style name="TimeTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
     </style>
-    <style name="TimePlaylist">
+    <style name="PaddDefault.TimePlaylist">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_toRightOf">@+id/song_name_from_playlist</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:paddingTop">@dimen/activity_horizontal_margin</item>
     </style>
     <style name="LinLayoutPlay">
         <item name="android:layout_width">wrap_content</item>

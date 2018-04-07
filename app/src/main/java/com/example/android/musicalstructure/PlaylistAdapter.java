@@ -11,6 +11,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static com.example.android.musicalstructure.MainActivity.INTENT_KEY_ARTIST_NAME;
+import static com.example.android.musicalstructure.MainActivity.INTENT_KEY_SONG_DURATION;
+import static com.example.android.musicalstructure.MainActivity.INTENT_KEY_SONG_NAME;
+
 /*
  * Created by Pufi on 3/30/2018.
  */
@@ -66,9 +70,9 @@ public class PlaylistAdapter extends ArrayAdapter<Song> {
                     Intent playingNowIntent1;
                     playingNowIntent1 = new Intent(view.getContext(), PlayingNow.class);
                     //start the new activty
-                    playingNowIntent1.putExtra("ARTIST_NAME", currentSong.getArtistName());
-                    playingNowIntent1.putExtra("SONG_NAME", currentSong.getSongName());
-                    playingNowIntent1.putExtra("SONG_TIME",currentSong.getSongTime());
+                    playingNowIntent1.putExtra(INTENT_KEY_ARTIST_NAME, currentSong.getArtistName());
+                    playingNowIntent1.putExtra(INTENT_KEY_SONG_NAME, currentSong.getSongName());
+                    playingNowIntent1.putExtra(INTENT_KEY_SONG_DURATION,currentSong.getSongTime());
                     view.getContext().startActivity(playingNowIntent1);
                 }
             });

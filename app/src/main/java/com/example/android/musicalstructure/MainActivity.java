@@ -9,6 +9,11 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
+    //define intent key
+    public static final String INTENT_KEY_SONG_NAME = "SONG_NAME";
+    public static final String INTENT_KEY_ARTIST_NAME = "ARTIST_NAME";
+    public static final String INTENT_KEY_SONG_DURATION = "SONG_DURATION";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
