@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         // Find the View that shows the album list
         TextView albumList = (TextView) findViewById(R.id.albums);
         // Set a click listener on that View
@@ -45,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         // Find the View that shows playlist
         TextView playlist = (TextView) findViewById(R.id.playlist);
         // Set a click listener on that View
@@ -55,12 +53,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Create a new intent to open the playlist activity
                 Intent playlistIntent = new Intent(MainActivity.this, Playlist.class);
-
                 // Start the new activity
                 startActivity(playlistIntent);
             }
         });
-
 
         // Find the View that shows artist list
         TextView artistList = (TextView) findViewById(R.id.artist);

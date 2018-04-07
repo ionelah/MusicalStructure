@@ -28,5 +28,4 @@
         style="@style/ListStyle"
         android:background="@color/artist_list"
         android:text="@string/artist_list" />
-
 </LinearLayout>
